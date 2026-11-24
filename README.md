@@ -9,7 +9,7 @@ A QGIS plugin for guided orthogonal building-footprint digitizing.
 - Constrains subsequent edges to perpendicular/parallel directions for 90-degree corners.
 - Snaps the approximate final left-click onto the perpendicular guide through the starting point.
 - Shows a red live outline preview.
-- Right-click finishes the polygon; the created feature is selected.
+- Right-click finishes the polygon; the created feature is selected and the tool stays active for the next building.
 
 ## Keyboard shortcuts
 
@@ -18,7 +18,7 @@ A QGIS plugin for guided orthogonal building-footprint digitizing.
 | `Ctrl+Alt+B` | Start MD_Building (works from anywhere in QGIS) |
 | `Enter` | Finish and save the building (same as right-click) |
 | `Backspace` / `Delete` / `Ctrl+Z` | Undo the last corner |
-| `Esc` | Cancel the current building |
+| `Esc` | Cancel the current building (press again to exit the tool) |
 
 The start shortcut can be changed in **Settings → Keyboard Shortcuts** (search for "MD_Building").
 
