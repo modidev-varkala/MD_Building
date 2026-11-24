@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugins>
+  <pyqgis_plugin name="MD_Building" version="1.0.0">
+    <description><![CDATA[Guided orthogonal building footprint digitizing with 90-degree corners and perpendicular closing snap.]]></description>
+    <about><![CDATA[MD_Building digitizes 90-degree building footprints directly into the active polygon layer. Left-click to add corners; right-click or Enter to finish. Shortcut: Ctrl+Alt+B.]]></about>
+    <version>1.0.0</version>
+    <qgis_minimum_version>3.22</qgis_minimum_version>
+    <homepage>https://github.com/modidev-varkala/MD_Building</homepage>
+    <file_name>MD_Building.zip</file_name>
+    <icon>icon.svg</icon>
+    <author_name>modidev</author_name>
+    <download_url>https://raw.githubusercontent.com/modidev-varkala/MD_Building/main/MD_Building.zip</download_url>
+    <uploaded_by>modidev</uploaded_by>
+    <create_date>2026-11-24T00:00:00</create_date>
+    <update_date>2026-11-24T00:00:00</update_date>
+    <experimental>False</experimental>
+    <deprecated>False</deprecated>
+    <tracker>https://github.com/modidev-varkala/MD_Building/issues</tracker>
+    <repository>https://github.com/modidev-varkala/MD_Building</repository>
+    <tags>digitizing,building,orthogonal,footprint</tags>
+    <category>Digitizing</category>
+  </pyqgis_plugin>
+</plugins>

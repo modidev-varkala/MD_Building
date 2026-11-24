@@ -1,0 +1,15 @@
+[general]
+name=MD_Building
+qgisMinimumVersion=3.22
+description=Guided orthogonal building footprint digitizing with 90-degree corners and perpendicular closing snap.
+version=1.0.0
+author=modidev
+email=
+about=MD_Building digitizes 90-degree building footprints directly into the active polygon layer. Left-click to add corners; right-click to finish.
+category=Digitizing
+icon=icon.svg
+experimental=False
+homepage=https://github.com/modidev-varkala/MD_Building
+repository=https://github.com/modidev-varkala/MD_Building
+tracker=https://github.com/modidev-varkala/MD_Building/issues
+changelog=1.0.0 - Added keyboard shortcuts (Ctrl+Alt+B to start; Enter, Backspace, Esc while digitizing)
